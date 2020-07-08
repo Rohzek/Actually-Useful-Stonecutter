@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": "minecraft:blaze_powder"
+}

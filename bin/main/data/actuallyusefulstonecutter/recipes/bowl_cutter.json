@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 3,
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "minecraft:bowl"
+}

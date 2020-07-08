@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:acacia_log"
+  },
+  "result": "minecraft:acacia_planks"
+}

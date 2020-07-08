@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:spruce_log"
+  },
+  "result": "minecraft:spruce_planks"
+}

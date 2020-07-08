@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "result": "minecraft:dark_oak_slab"
+}

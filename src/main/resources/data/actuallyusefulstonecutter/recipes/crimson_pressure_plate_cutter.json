@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "minecraft:crimson_pressure_plate"
+}

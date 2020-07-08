@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:jungle_wood"
+  },
+  "result": "minecraft:jungle_planks"
+}

@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:warped_stem"
+  },
+  "result": "minecraft:stripped_warped_stem"
+}

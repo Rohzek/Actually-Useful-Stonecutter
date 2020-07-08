@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:warped_hyphae"
+  },
+  "result": "minecraft:stripped_warped_hyphae"
+}
