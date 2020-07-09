@@ -1,9 +1,0 @@
-{
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:crimson_hyphae"
-  },
-  "result": "minecraft:stripped_crimson_hyphae"
-}

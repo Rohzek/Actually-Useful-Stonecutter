@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Simple Dive Gear\build\natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Actually Useful Stonecutter (1.15)\build\natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry output="bin/main" kind="src" path="src/main/resources">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Simple Dive Gear\build\natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Actually Useful Stonecutter (1.15)\build\natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry output="bin/test" kind="src" path="src/test/java">
 		<attributes>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Simple Dive Gear\build\natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Actually Useful Stonecutter (1.15)\build\natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry output="bin/test" kind="src" path="src/test/resources">
 		<attributes>
 			<attribute name="gradle_scope" value="test"/>
 			<attribute name="gradle_used_by_scope" value="test"/>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Simple Dive Gear\build\natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="E:\Minecraft\Actually Useful Stonecutter (1.15)\build\natives"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.34_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.34_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.34_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.34_mapped_snapshot_20200514-1.16-recomp.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.34_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.34_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.1-32.0.34_mapped_snapshot_20200514-1.16/forge-1.16.1-32.0.34_mapped_snapshot_20200514-1.16-launcher.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_repo/versions/1.16.1/client-extra.jar">
+	<classpathentry kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_repo/versions/1.15.2/client-extra.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/2.1.3/b5392b6162d258613cc3d7eea74a9b9d1c10c25/accesstransformers-2.1.3-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/2.1.3/addc10ee659e011004852c6cf1d036180f67a169/accesstransformers-2.1.3-shadowed.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/2.1.1/c71c342554f6f9c23224b8b3fc33eea9305b119c/accesstransformers-2.1.1-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/accesstransformers/2.1.1/1d1e439ef345ab5fd76df679de70a0c35f03bf4a/accesstransformers-2.1.1-shadowed.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -60,7 +60,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/3.0.0/3be9199c47a6c4e5d3a069608141f93637aa5684/forgespi-3.0.0-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/3.0.0/f950d208c9fa7a1d7700d8a222bd08d4baf90600/forgespi-3.0.0.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/2.1.2/d72fa826437f009ae97c39aae0de35ec1cb1cb93/forgespi-2.1.2-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/net.minecraftforge/forgespi/2.1.2/867d339ca81f375c560da6d37084066e7f537f15/forgespi-2.1.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -85,7 +85,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20200514-1.16/mcp_snapshot-20200514-1.16.zip">
+	<classpathentry kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20200514-1.15.1/mcp_snapshot-20200514-1.15.1.zip">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -190,7 +190,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/66.1/57d00b7135ca8fa82311d6b9fd345309e4c46f0b/icu4j-66.1-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/66.1/72c7519b6d91f7a1f993bd44a99fe95d67211b27/icu4j-66.1.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/814397ccbafff1132758e551c37396c528d7f2d7/icu4j-core-mojang-51.2-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -245,7 +245,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/3.0.25/9a4f9605319b6da180c7b50bf6da6551f95b2e6c/datafixerupper-3.0.25-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/3.0.25/b3e9ae66d5a69b4aa43d9dbe1e2b2d1401251343/datafixerupper-3.0.25.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/2.0.24/b4d25114ce61af97e739a6942cd8c6caa5d092a7/datafixerupper-2.0.24-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/datafixerupper/2.0.24/944c24a8519981847ffb36c6dcd059d96fcb4b0/datafixerupper-2.0.24.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -255,7 +255,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.6.25/de9a1ba1e01d2f3e03a0b5812f4f4e51624a671e/authlib-1.6.25-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.6.25/5bd0ce00c1e1f483641f85bccb02d1956dd77ec0/authlib-1.6.25.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/18840707f662a3236542716fff61c659584f3e6c/authlib-1.5.25-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
