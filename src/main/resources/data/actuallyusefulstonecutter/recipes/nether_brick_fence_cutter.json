@@ -1,0 +1,9 @@
+{
+  "group": "survivalfixes",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:nether_bricks"
+  },
+  "result": "minecraft:nether_brick_fence"
+}
