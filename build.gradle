@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.0 mc 1.16.1'
+version = '1.0.1 mc 1.16.1'
 group = 'com.gmail.rohzek.stonecut' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Actually Useful Stonecutter'
 
