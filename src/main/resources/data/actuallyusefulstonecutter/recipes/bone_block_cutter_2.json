@@ -1,6 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "count": 36,
+    "count": 9,
     "ingredient": {
       "item": "minecraft:bone_block"
     },

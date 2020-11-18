@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 12,
+  "count": 9,
   "ingredient": {
     "item": "minecraft:iron_block"
   },

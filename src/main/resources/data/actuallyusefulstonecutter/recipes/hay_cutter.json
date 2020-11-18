@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 16,
+  "count": 9,
   "ingredient": {
     "item": "minecraft:hay_block"
   },
