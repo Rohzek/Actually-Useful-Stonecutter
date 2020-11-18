@@ -49,6 +49,6 @@ Come talk to be about it at: https://discord.gg/SC9hUPJ
 [[dependencies.actuallyusefulstonecutter]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.3]"
+    versionRange="[1.16,)"
     ordering="NONE"
     side="BOTH"

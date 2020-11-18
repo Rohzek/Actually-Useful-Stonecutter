@@ -9,7 +9,7 @@
     <mapEntry key="MOD_CLASSES" value="examplemod%%E:\Github\Actually-Useful-Stonecutter\bin\main;examplemod%%E:\Github\Actually-Useful-Stonecutter\bin\main"/>
     <mapEntry key="MCP_MAPPINGS" value="snapshot_20200514-1.16"/>
     <mapEntry key="MCP_VERSION" value="20200911.084530"/>
-    <mapEntry key="FORGE_VERSION" value="34.0.7"/>
+    <mapEntry key="FORGE_VERSION" value="34.1.0"/>
     <mapEntry key="FORGE_GROUP" value="net.minecraftforge"/>
     <mapEntry key="target" value="fmluserdevdata"/>
     <mapEntry key="MC_VERSION" value="1.16.3"/>

@@ -1,7 +1,6 @@
 {
-  "group": "survivalfixes",
   "type": "minecraft:stonecutting",
-  "count": 4,
+  "count": 12,
   "ingredient": {
     "item": "minecraft:bone"
   },

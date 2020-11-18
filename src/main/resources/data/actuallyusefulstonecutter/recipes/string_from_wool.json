@@ -1,7 +1,5 @@
 {
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 6,
+  "count": 8,
   "ingredient": {
     "tag": "minecraft:wool"
   },

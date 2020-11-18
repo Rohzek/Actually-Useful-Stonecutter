@@ -30,12 +30,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.0.7_mapped_snapshot_20200514-1.16/forge-1.16.3-34.0.7_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.0.7_mapped_snapshot_20200514-1.16/forge-1.16.3-34.0.7_mapped_snapshot_20200514-1.16-recomp.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.0_mapped_snapshot_20200514-1.16/forge-1.16.3-34.1.0_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.0_mapped_snapshot_20200514-1.16/forge-1.16.3-34.1.0_mapped_snapshot_20200514-1.16.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.0.7_mapped_snapshot_20200514-1.16/forge-1.16.3-34.0.7_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.0.7_mapped_snapshot_20200514-1.16/forge-1.16.3-34.0.7_mapped_snapshot_20200514-1.16-launcher.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.0_mapped_snapshot_20200514-1.16/forge-1.16.3-34.1.0_mapped_snapshot_20200514-1.16-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.3-34.1.0_mapped_snapshot_20200514-1.16/forge-1.16.3-34.1.0_mapped_snapshot_20200514-1.16-launcher.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -170,7 +170,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8/6b369c870f027904cde368c1c6c574d79178115f/mixin-0.8-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8/dbe9e5db694a7c3cd644d5bb98f8a21295c75048/mixin-0.8.jar">
+	<classpathentry sourcepath="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.1/dd8bcf2d81183a1d6ebdd4c6b286de3809e7dda3/mixin-0.8.1-sources.jar" kind="lib" path="D:/Users/Rohzek/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.1/3099ac85bce29d37a22d3561073d01eb99b0cf4b/mixin-0.8.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

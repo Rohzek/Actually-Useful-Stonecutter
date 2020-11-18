@@ -9,7 +9,7 @@
     <mapEntry key="MOD_CLASSES" value="examplemod%%E:\Github\Actually-Useful-Stonecutter\bin\main;examplemod%%E:\Github\Actually-Useful-Stonecutter\bin\main"/>
     <mapEntry key="MCP_MAPPINGS" value="snapshot_20200514-1.16"/>
     <mapEntry key="MCP_VERSION" value="20200911.084530"/>
-    <mapEntry key="FORGE_VERSION" value="34.0.7"/>
+    <mapEntry key="FORGE_VERSION" value="34.1.0"/>
     <mapEntry key="assetIndex" value="1.16"/>
     <mapEntry key="assetDirectory" value="D:\Users\Rohzek\.gradle\caches\forge_gradle\assets"/>
     <mapEntry key="nativesDirectory" value="E:\Github\Actually-Useful-Stonecutter\build\natives"/>
