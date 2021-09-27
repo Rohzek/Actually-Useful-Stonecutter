@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "minecraft:oak_wood"
+    "item": "minecraft:birch_planks"
   },
-  "result": "minecraft:stripped_oak_wood"
+  "result": "minecraft:birch_stairs"
 }
