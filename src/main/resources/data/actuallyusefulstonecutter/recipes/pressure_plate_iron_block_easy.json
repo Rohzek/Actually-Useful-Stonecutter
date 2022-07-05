@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "minecraft:heavy_weighted_pressure_plate"
+}

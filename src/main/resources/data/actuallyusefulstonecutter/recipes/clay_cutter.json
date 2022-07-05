@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 12,
-  "ingredient": {
-    "item": "minecraft:clay"
-  },
-  "result": "minecraft:clay_ball"
-}
