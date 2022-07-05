@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "minecraft:birch_planks"
-  },
-  "result": "minecraft:birch_pressure_plate"
-}

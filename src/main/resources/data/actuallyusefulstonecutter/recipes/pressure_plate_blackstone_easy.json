@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "result": "minecraft:polished_blackstone_pressure_plate"
+}
