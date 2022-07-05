@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:ancient_debris"
+  },
+  "result": "minecraft:netherite_scrap"
+}

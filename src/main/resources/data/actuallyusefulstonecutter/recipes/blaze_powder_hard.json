@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:blaze_rod"
+  },
+  "result": "minecraft:blaze_powder"
+}

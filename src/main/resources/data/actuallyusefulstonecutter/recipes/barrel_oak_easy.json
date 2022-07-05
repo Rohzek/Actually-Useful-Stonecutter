@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:oak_log"
+  },
+  "result": "minecraft:barrel"
+}

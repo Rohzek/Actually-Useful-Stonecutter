@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 12,
-  "ingredient": {
-    "item": "minecraft:gold_block"
-  },
-  "result": "minecraft:gold_ingot"
-}

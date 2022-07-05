@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:crimson_hyphae"
+  },
+  "result": "minecraft:crimson_door"
+}
