@@ -1,9 +1,0 @@
-{
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:crimson_planks"
-  },
-  "result": "minecraft:crimson_fence_gate"
-}

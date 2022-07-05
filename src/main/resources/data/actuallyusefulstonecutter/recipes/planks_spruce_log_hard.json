@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:spruce_log"
+  },
+  "result": "minecraft:spruce_planks"
+}

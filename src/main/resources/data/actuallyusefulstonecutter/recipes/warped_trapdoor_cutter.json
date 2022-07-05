@@ -1,9 +1,0 @@
-{
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 3,
-  "ingredient": {
-    "item": "minecraft:warped_planks"
-  },
-  "result": "minecraft:warped_trapdoor"
-}

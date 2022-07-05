@@ -1,9 +1,0 @@
-{
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 10,
-  "ingredient": {
-    "item": "minecraft:gold_block"
-  },
-  "result": "minecraft:gold_ingot"
-}

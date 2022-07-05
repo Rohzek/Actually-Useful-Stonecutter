@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+    "count": 10,
+    "ingredient": {
+      "item": "minecraft:bone_block"
+    },
+    "result": "minecraft:bone_meal"
+  }
