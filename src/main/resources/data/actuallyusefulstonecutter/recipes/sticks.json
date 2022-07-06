@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 8,
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "minecraft:stick"
+}

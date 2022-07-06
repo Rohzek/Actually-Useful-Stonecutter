@@ -4,6 +4,10 @@ modLoader="javafml" #mandatory
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
 loaderVersion="[28,)" #mandatory (32 is current forge version)
 
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="Public Domain"
+
 # A URL to refer people to when problems occur with this mod
 issueTrackerURL="https://github.com/Rohzek/SimpleDivingGear/issues" #optional
 
@@ -45,6 +49,6 @@ Come talk to be about it at: https://discord.gg/SC9hUPJ
 [[dependencies.actuallyusefulstonecutter]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.14.4]"
+    versionRange="[1.14,)"
     ordering="NONE"
     side="BOTH"

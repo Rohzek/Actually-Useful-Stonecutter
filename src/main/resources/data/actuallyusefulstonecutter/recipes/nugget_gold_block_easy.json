@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 64,
+  "ingredient": {
+    "item": "minecraft:gold_block"
+  },
+  "result": "minecraft:gold_nugget"
+}

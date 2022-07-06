@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:nether_wart_block"
+  },
+  "result": "minecraft:nether_wart"
+}

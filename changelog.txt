@@ -1,5 +1,145 @@
+Build: 1.14.4-28.2.26 - Sat Dec 11 17:22:00 GMT 2021
+	sizableshrimp:
+		[1.14.x] Update Installer to 2.1.+ (#8289)
+		
+		* Update Installer to 2.1.+
+		
+		Signed-off-by: SizableShrimp <sizableshrimp@sizableshrimp.me>
+		
+		* Update references of files.mcf.net/maven to maven.mcf.net
+		
+		Signed-off-by: SizableShrimp <sizableshrimp@sizableshrimp.me>
+
+=========
+Build: 1.14.4-28.2.25 - Fri Dec 10 14:17:06 GMT 2021
+	oriondevelopment:
+		Patch the jenkinsfile so it publishes using the correct credentials provided by Jenkins. (#8277)
+
+=========
+Build: 1.14.4-28.2.24 - Fri Dec 10 12:13:26 GMT 2021
+	oriondevelopment:
+		[1.14.x] [CVE-2021-44228]: Update Log4J to fix the security issue inside it. (#8272)
+
+=========
+Build: 1.14.4-28.2.23 - Wed Jul 01 15:52:11 GMT 2020
+	tomboshoven:
+		Make MultiModel pass its extra model data down to its parts. Closes #6534
+
+	50ap5ud5:
+		Backport of patch #6543 to enable Stencil buffer in net.minecraft.client.shader.Framebuffer. Closes #6751
+
+=========
+Build: 1.14.4-28.2.21 - Thu Jun 25 17:09:48 GMT 2020
+	dion:
+		Add missing localization for attributes (#6530)
+
+=========
+Build: 1.14.4-28.2.20 - Thu Jun 25 16:46:20 GMT 2020
+	cyborgmas:
+		Trigger xp event after enchanting (#6702)
+
+=========
+Build: 1.14.4-28.2.19 - Thu Jun 18 21:41:58 GMT 2020
+	daemonumbra:
+		Potential userProperties Fix (#6740) (#6784)
+
+=========
+Build: 1.14.4-28.2.18 - Wed Jun 03 22:40:06 GMT 2020
+	gigaherz:
+		Add file missed in the backport of the global loot modifiers feature from 1.15. Avoids an error when loading a world or reloading datapacks.
+
+=========
+Build: 1.14.4-28.2.17 - Thu May 28 15:16:12 GMT 2020
+	gigaherz:
+		Backport new multi-layer model from 1.15. Added as a separate class and loader ID to avoid breaking changes.
+
+	gigaherz:
+		Backport new multi-layer model from 1.15. Added as a separate class and loader ID to avoid breaking changes.
+
+=========
+Build: 1.14.4-28.2.16 - Thu May 14 20:14:12 GMT 2020
+	malte0811:
+		Fix ChunkWatchEvent.(Un)Watch not firing correctly (#6519)
+
+=========
+Build: 1.14.4-28.2.15 - Thu May 14 20:03:57 GMT 2020
+	tomboshoven:
+		Fixed tile entities persisting when switching between states that don't have TEs without changing the block. (#6673)
+
+=========
+Build: 1.14.4-28.2.14 - Tue May 12 21:54:54 GMT 2020
+	me:
+		Fix ChunkDataEvent.Load not firing, it now fires in the aync thread. (#6610)
+
+=========
+Build: 1.14.4-28.2.13 - Tue May 12 21:31:57 GMT 2020
+	daemonumbra:
+		Fix recursion mess in PlayerAdvancement loading, by using an alternative based on a toposorted list of all advancements. (#6662)
+		
+		It seems to be fully equivalent in testing, but there may be corner cases, so there is a config to disable, though disabling may break servers, especially those chunkloading fake players.
+
+=========
+Build: 1.14.4-28.2.12 - Tue May 12 21:24:39 GMT 2020
+	blueagent:
+		Fix Forge's tps and gen commands. (#6666)
+
+=========
+Build: 1.14.4-28.2.11 - Wed May 06 12:30:49 GMT 2020
+	gigaherz:
+		Backport a7e4cdcc49afb5bd68d252e54a0207830e36f964 (Bucket unable to place custom fluid on block with custom fluid-loggable implementation)
+
+=========
+Build: 1.14.4-28.2.10 - Sun May 03 20:06:00 GMT 2020
+	brianchim1:
+		Add fix for issue 6286. Changed null return to throw exception as per IExtensibleEnum
+
+	patrick.ocampo:
+		added TODO in PlantType.java and made variables private in CustomPlantTypeTest
+
+	patrick.ocampo:
+		updated comment pertaining to PlantType
+
+=========
+Build: 1.14.4-28.2.6 - Tue Apr 28 17:24:44 GMT 2020
+	gigaherz:
+		Remove redundant call to modifyLoot. Backports 0fc1ea01d19a8ffe5c1fadc33025c9c86a4ed356
+
+=========
+Build: 1.14.4-28.2.5 - Thu Apr 23 12:58:25 GMT 2020
+	gigaherz:
+		Add tickRate setter to the ForgeFlowingFluid Properties builder.
+
+=========
+Build: 1.14.4-28.2.4 - Sun Apr 12 20:56:37 GMT 2020
+	gigaherz:
+		Backport Global Loot Functions by Draco18s
+
+=========
+Build: 1.14.4-28.2.3 - Fri Feb 28 21:44:10 GMT 2020
+	gigaherz:
+		Add AT entries for some implicit constructors that are protected, but the development setup makes public without telling anyone.
+
+=========
+Build: 1.14.4-28.2.2 - Fri Feb 28 17:27:08 GMT 2020
+	gigaherz:
+		Backport implementation of the new model system from 1.15: (#6180)
+		
+		- Extended block model format to support a "loader" value, as an alternative to "elements.
+		- Extended block model format to support "gui_3d":false as a way to mark a model as being intended to be flat and lit from the front.
+		    (No this is not equivalent to the  "gui_light" flag in 1.15.2. It changes more than just the light direction)
+		- Added a new OBJ loader designed from the ground up to work with the new model system.
+		- Added stock models to serve as parent models when using custom loaders (forge:item/default, forge:item/default-tool, and forge:block/default).
+		- Added stock white texture (forge:white) for use in loaders that want to draw untextured geometry.
+		- Deprecated the old loader components, since they are gone in 1.15 already.
+
+=========
+Build: 1.14.4-28.2.1 - Fri Feb 14 20:35:33 GMT 2020
+	goto.minecraft:
+		Fix PlayerChangedDimensionEvent using incorrect from dimension argument in ServerPlayerEntity.teleport.
+
+=========
 Build: 1.14.4-28.2.0 - Mon Feb 03 21:41:57 GMT 2020
-	lex:
+	lexmanos:
 		Update binpatcher version to decrease installer download size.
 
 =========
@@ -9,7 +149,7 @@ Build: 1.14.4-28.1.118 - Mon Feb 03 20:44:30 GMT 2020
 
 =========
 Build: 1.14.4-28.1.117 - Wed Jan 29 17:16:35 GMT 2020
-	DaemonUmbra:
+	daemonumbra:
 		Fixed Brown Mooshrooms dropping Red Mushrooms when sheared (#6476)
 		
 		Backports 1.15.x code to 1.14.x
@@ -21,7 +161,7 @@ Build: 1.14.4-28.1.116 - Wed Jan 22 19:38:32 GMT 2020
 
 =========
 Build: 1.14.4-28.1.115 - Thu Jan 16 00:23:08 GMT 2020
-	knightminer4:
+	knightminer:
 		[1.14] Add support for custom nether portal frame blocks (#6417)
 
 =========
@@ -31,7 +171,7 @@ Build: 1.14.4-28.1.114 - Sat Jan 11 00:10:35 GMT 2020
 
 =========
 Build: 1.14.4-28.1.113 - Tue Jan 07 20:02:19 GMT 2020
-	Choonster.2010:
+	choonster:
 		Deprecate ElementBuilder#rotation(BlockPartRotation) and add zero-parameter overload (fixes #6321) (#6338)
 
 	tterrag:
@@ -46,7 +186,7 @@ Build: 1.14.4-28.1.111 - Wed Jan 01 00:16:28 GMT 2020
 
 =========
 Build: 1.14.4-28.1.110 - Wed Jan 01 00:09:14 GMT 2020
-	David Quintana:
+	gigaherz:
 		Revert one of the hunks of #6216, which was actually correct as it was. (#6337)
 
 =========
@@ -70,12 +210,12 @@ Build: 1.14.4-28.1.107 - Sun Dec 15 22:39:52 GMT 2019
 
 =========
 Build: 1.14.4-28.1.106 - Tue Dec 10 20:07:46 GMT 2019
-	41268323+SmellyModder:
+	41268323+smellymodder:
 		Restored canRiderInteract boolean in IForgeEntity (#6347)
 
 =========
 Build: 1.14.4-28.1.105 - Tue Dec 10 19:46:10 GMT 2019
-	12281102+Aeltumn:
+	12281102+aeltumn:
 		Split DrawBlockHighlightEvent into subevents to make usage clearer, addresses #2190 (#6269)
 
 =========
@@ -97,7 +237,7 @@ Build: 1.14.4-28.1.102 - Tue Dec 03 00:11:28 GMT 2019
 
 =========
 Build: 1.14.4-28.1.101 - Mon Dec 02 22:59:25 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Fixed invocation of Vanilla spawn logic (#6334)
 		
 		Forge's replacement of the Vanilla logic gets inverted, so the Vanilla logic inside that replacement must be inverted to correct for this.
@@ -113,7 +253,7 @@ Build: 1.14.4-28.1.99 - Mon Dec 02 22:52:53 GMT 2019
 
 =========
 Build: 1.14.4-28.1.98 - Mon Dec 02 22:36:38 GMT 2019
-	41268323+SmellyModder:
+	41268323+smellymodder:
 		Added FENCES_WOODEN and FENCE_GATES_WOODEN tags as fuels in AbstractFurnaceTileEntity (#6327)
 
 =========
@@ -154,7 +294,7 @@ Build: 1.14.4-28.1.92 - Thu Nov 21 03:23:20 GMT 2019
 
 =========
 Build: 1.14.4-28.1.91 - Thu Nov 21 03:15:24 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Add tags supports_beacon and supports_conduit and modify Beacon and
 		Conduit to use these tags (#6266)
 
@@ -168,7 +308,7 @@ Build: 1.14.4-28.1.90 - Tue Nov 12 23:18:44 GMT 2019
 
 =========
 Build: 1.14.4-28.1.88 - Tue Nov 12 23:11:05 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Modify StonecutterContainer to allow shift-click insertion of any block
 		with a valid recipe rather than limiting to blocks in an Immutable List
 		(#6268)
@@ -188,20 +328,20 @@ Build: 1.14.4-28.1.85 - Tue Nov 05 19:56:19 GMT 2019
 	tterrag:
 		Optimize SectionLightStorage#cancelSectionUpdates loop
 
-	DaemonUmbra:
+	daemonumbra:
 		Made the slash optional in fml confirm/cancel. (#6282)
 
-	DaemonUmbra:
+	daemonumbra:
 		Fixed an NPE caused by missing registries. (#6292)
 		Missing registries in this case being registries renamed without proper
 		remapping or created by mods that were removed.
 
-	12281102+Aeltumn:
+	12281102+aeltumn:
 		Add LeftClickEvent trigger to onPlayerDamageBlock (#6046)
 
 =========
 Build: 1.14.4-28.1.81 - Tue Nov 05 19:10:15 GMT 2019
-	lex:
+	lexmanos:
 		Fix registry snapshots not reading aliases correctly. Closes #6298
 
 =========
@@ -227,7 +367,7 @@ Build: 1.14.4-28.1.78 - Fri Nov 01 18:30:45 GMT 2019
 
 =========
 Build: 1.14.4-28.1.77 - Fri Nov 01 18:24:10 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Replaced getTypes invocation in ensureHasTypes with a direct reference
 		to types, preventing infinite recursion (#6284)
 		The direct reference is checked via ternary and reports if the set is
@@ -280,13 +420,13 @@ Build: 1.14.4-28.1.69 - Fri Oct 25 11:28:30 GMT 2019
 
 =========
 Build: 1.14.4-28.1.68 - Fri Oct 25 06:09:04 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Fixed NPEs caused by uninitialized lists in ModDirTransformerDiscoverer
 		(#6277)
 
 =========
 Build: 1.14.4-28.1.67 - Fri Oct 25 05:09:35 GMT 2019
-	lex:
+	lexmanos:
 		Make Loot Table data generators more reusable for modders.
 
 =========
@@ -308,7 +448,7 @@ Build: 1.14.4-28.1.64 - Tue Oct 22 22:31:43 GMT 2019
 	wynprice999:
 		Fixed forge rendering pipeline and shape based light occulsion. (#6178)
 
-	559819+AfterRebelion:
+	559819+afterrebelion:
 		Exclude Cobblestone slabs and wall recipes (#6230)
 
 =========
@@ -343,11 +483,11 @@ Build: 1.14.4-28.1.59 - Fri Oct 18 00:28:54 GMT 2019
 
 =========
 Build: 1.14.4-28.1.58 - Thu Oct 17 23:13:24 GMT 2019
-	David Quintana:
+	gigaherz:
 		Fix vanilla models with parents not loading properly from forge
 		blockstates.
 
-	12281102+Aeltumn:
+	12281102+aeltumn:
 		Fix #6244 RightClickBlock#getUseBlock and #getUseItem being ignored
 		(#6246)
 
@@ -356,7 +496,7 @@ Build: 1.14.4-28.1.56 - Tue Oct 15 22:01:50 GMT 2019
 	bl4ckscor33:
 		Fix shear sound not playing (#6202)
 
-	ohai.iChun:
+	ohai.ichun:
 		Fix error logging in FMLUserdevLaunchProvider.setup (#6206)
 
 	jojohostert:
@@ -383,13 +523,13 @@ Build: 1.14.4-28.1.49 - Tue Oct 15 21:38:20 GMT 2019
 
 =========
 Build: 1.14.4-28.1.48 - Tue Oct 15 21:31:49 GMT 2019
-	JDLogic:
+	jdlogic:
 		Fix mod info panel rendering incorrectly on some systems with HiDPI
 		displays (pesky macs) (#6170)
 
 =========
 Build: 1.14.4-28.1.47 - Mon Oct 14 17:40:45 GMT 2019
-	usfirepilot123:
+	firecontroller1847:
 		Re-add PlayerGiveXpEvent & PlayerChangeLevelEvent (#6165)
 
 =========
@@ -423,7 +563,7 @@ Build: 1.14.4-28.1.41 - Thu Oct 10 18:23:36 GMT 2019
 
 =========
 Build: 1.14.4-28.1.40 - Mon Oct 07 22:18:52 GMT 2019
-	David Quintana:
+	gigaherz:
 		Fix forge blockstates and custom model loading (#6154)
 		* Reimplement forge blockstates variant through the use of a
 		pseudo-model that handles the model loading, retexturing, custom data,
@@ -446,7 +586,7 @@ Build: 1.14.4-28.1.39 - Sat Oct 05 21:04:32 GMT 2019
 
 =========
 Build: 1.14.4-28.1.38 - Sat Oct 05 17:55:33 GMT 2019
-	David Quintana:
+	gigaherz:
 		New round of fluid system fixes: (#6175)
 		- Fix race condition lazy-initializing flowing fluid block data.
 		- Fix typo in ItemTextureQuadConverter that prevents certain animated
@@ -472,7 +612,7 @@ Build: 1.14.4-28.1.36 - Fri Oct 04 19:26:16 GMT 2019
 
 =========
 Build: 1.14.4-28.1.35 - Fri Oct 04 17:37:04 GMT 2019
-	lex:
+	lexmanos:
 		Fix dimension types being incorrect when connecting to a non-Forge
 		server. Closes #6203
 
@@ -565,7 +705,7 @@ Build: 1.14.4-28.1.20 - Wed Sep 25 01:06:00 GMT 2019
 
 =========
 Build: 1.14.4-28.1.19 - Tue Sep 24 01:43:11 GMT 2019
-	lex:
+	lexmanos:
 		Fix server jar manifest path.
 
 =========
@@ -580,12 +720,12 @@ Build: 1.14.4-28.1.17 - Mon Sep 23 03:40:09 GMT 2019
 
 =========
 Build: 1.14.4-28.1.16 - Mon Sep 23 02:47:09 GMT 2019
-	lex:
+	lexmanos:
 		Fix timezone issue with the installer.
 
 =========
 Build: 1.14.4-28.1.15 - Mon Sep 23 00:30:41 GMT 2019
-	lex:
+	lexmanos:
 		Bump binpatcher and jarsplitter versions to address Java differences on
 		older JDKs.
 
@@ -633,7 +773,7 @@ Build: 1.14.4-28.1.8 - Tue Sep 17 23:59:35 GMT 2019
 
 =========
 Build: 1.14.4-28.1.7 - Tue Sep 17 21:39:44 GMT 2019
-	Bward7864:
+	bward7864:
 		Post tag event directly from reloader thread (#6164)
 
 =========
@@ -647,19 +787,19 @@ Build: 1.14.4-28.1.6 - Tue Sep 17 00:16:04 GMT 2019
 
 =========
 Build: 1.14.4-28.1.5 - Mon Sep 16 21:04:39 GMT 2019
-	Bward7864:
+	bward7864:
 		Update furnace fuels to not recreate it's list every query, and update
 		when tags are reloaded. Add Tag update events. (#6140)
 
 =========
 Build: 1.14.4-28.1.4 - Mon Sep 16 20:37:06 GMT 2019
-	17338378+Nightenom:
+	17338378+nightenom:
 		Maintain default behavior for Item#canPlayerBreakBlockWhileHolding()
 		(#6128)
 
 =========
 Build: 1.14.4-28.1.3 - Mon Sep 16 20:21:40 GMT 2019
-	Unnoen:
+	unnoen:
 		Update README badges to fix wrong version. (#6141)
 
 =========
@@ -674,18 +814,18 @@ Build: 1.14.4-28.1.1 - Thu Sep 12 18:10:59 GMT 2019
 
 =========
 Build: 1.14.4-28.1.0 - Thu Sep 12 16:14:54 GMT 2019
-	lex:
+	lexmanos:
 		Fix Entity.getPersistentData function name. Closes #6131 Bump spec
 		version for first 1.14.4 RB.
 
 =========
 Build: 1.14.4-28.0.107 - Thu Sep 12 16:01:53 GMT 2019
-	JDLogic:
+	jdlogic:
 		Fix ParticleFactoryRegisterEvent not firing (#6126)
 
 =========
 Build: 1.14.4-28.0.106 - Thu Sep 12 15:43:48 GMT 2019
-	David Quintana:
+	gigaherz:
 		Minor fixes to the fluids (#6150)
 		* Fixed vanilla rendering of fluids to take into account the alpha bits
 		of the color, and fix usages accordingly.
@@ -693,7 +833,7 @@ Build: 1.14.4-28.0.106 - Thu Sep 12 15:43:48 GMT 2019
 
 =========
 Build: 1.14.4-28.0.105 - Wed Sep 11 14:00:40 GMT 2019
-	David Quintana:
+	gigaherz:
 		Some (sadly breaking) improvements to the Fluid API (#6110)
 		* Some (sadly breaking) improvements to the API, after feedback and
 		concerns provided by users:
@@ -711,17 +851,17 @@ Build: 1.14.4-28.0.105 - Wed Sep 11 14:00:40 GMT 2019
 
 =========
 Build: 1.14.4-28.0.104 - Tue Sep 10 23:02:31 GMT 2019
-	lex:
+	lexmanos:
 		Delay Block loot table name generation until needed, as calling early
 		will result in an empty name as the block is not registered yet.
 
-	lex:
+	lexmanos:
 		Add new DeferredRegistry helper, and change RegistryObject to update
 		when overrides are registered.
 
 =========
 Build: 1.14.4-28.0.102 - Mon Sep 09 22:30:19 GMT 2019
-	lex:
+	lexmanos:
 		Fix slimes splitting more times then they should. Closes #6138
 
 =========
@@ -765,24 +905,24 @@ Build: 1.14.4-28.0.94 - Sat Sep 07 03:42:47 GMT 2019
 
 =========
 Build: 1.14.4-28.0.93 - Thu Sep 05 22:38:25 GMT 2019
-	lex:
+	lexmanos:
 		Fix REGISTER packet encode/decode issues. Changed ForgeConfig values to
 		return the default value if the config is not loaded, and exposed the
 		value objects as a internal config.
 
 =========
 Build: 1.14.4-28.0.92 - Thu Sep 05 05:33:28 GMT 2019
-	lex:
+	lexmanos:
 		Fix naming conflicts with official names.
 
 =========
 Build: 1.14.4-28.0.91 - Wed Sep 04 02:59:06 GMT 2019
-	lex:
+	lexmanos:
 		Fix item used stat not triggering properly on last item in the stack.
 
 =========
 Build: 1.14.4-28.0.90 - Wed Sep 04 01:51:34 GMT 2019
-	lex:
+	lexmanos:
 		Add a bunch of tags from the omnibus. Fix test imports. And update
 		patches for line numbers.
 
@@ -836,7 +976,7 @@ Build: 1.14.4-28.0.81 - Sat Aug 31 17:57:15 GMT 2019
 		publicly, so mods can add additional login messages. Closes #6087
 		Signed-off-by: cpw <cpw+github@weeksfamily.ca>
 
-	faj10:
+	GirafiStudios:
 		Added getters for FMLPlayMessages.SpawnEntity
 
 	tobias.hotz:
@@ -855,7 +995,7 @@ Build: 1.14.4-28.0.81 - Sat Aug 31 17:57:15 GMT 2019
 
 =========
 Build: 1.14.4-28.0.76 - Sat Aug 31 12:15:17 GMT 2019
-	David Quintana:
+	gigaherz:
 		Hookup BlockEvent.FluidPlaceBlockEvent (#6103)
 
 =========
@@ -867,7 +1007,7 @@ Build: 1.14.4-28.0.75 - Fri Aug 30 03:42:51 GMT 2019
 
 =========
 Build: 1.14.4-28.0.74 - Thu Aug 29 19:09:49 GMT 2019
-	David Quintana:
+	gigaherz:
 		Fluid rework derp fixes. (#6098)
 		* Fix nulls returning from non-null methods, and null-check of
 		non-nullable values.
@@ -878,7 +1018,7 @@ Build: 1.14.4-28.0.74 - Thu Aug 29 19:09:49 GMT 2019
 
 =========
 Build: 1.14.4-28.0.73 - Thu Aug 29 04:34:22 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Change fml.modloading.brokenfile.optifine to not imply that Forge is
 		responsible for Forge-Optifine compatibility. (#6080)
 
@@ -909,7 +1049,7 @@ Build: 1.14.4-28.0.67 - Thu Aug 29 03:34:14 GMT 2019
 	luasmrks:
 		Strip side annotations from CropsBlock.getSeedsItem (#6013)
 
-	Bward7864:
+	bward7864:
 		Add Villager Trading Events (#6016)
 
 =========
@@ -927,24 +1067,24 @@ Build: 1.14.4-28.0.63 - Thu Aug 29 01:42:25 GMT 2019
 
 =========
 Build: 1.14.4-28.0.62 - Thu Aug 29 01:30:04 GMT 2019
-	lex:
+	lexmanos:
 		Recipe system cleanup. (#6014)
 
-	David Quintana:
+	gigaherz:
 		Fluid API rework (#5983) - Moved forge fluids into FluidAttributes
 		companion object to the vanilla Fluid. By gigaherz - Redesigned the
 		Fluid API to be closer to the Items API. By King Lemming Co-authored-by:
 		King Lemming <kinglemming@gmail.com>
 
-	David Quintana:
+	gigaherz:
 		Fix license headers so `gradlew build` is happy.
 
-	David Quintana:
+	gigaherz:
 		Make FluidStacks non-nullable, and implement some TODOs.
 
 =========
 Build: 1.14.4-28.0.58 - Thu Aug 29 01:12:54 GMT 2019
-	bjfccb:
+	Managarmr719:
 		Fix regular arrows giving off particles after a world reload (MC-107941)
 		(#6061)
 
@@ -953,7 +1093,7 @@ Build: 1.14.4-28.0.58 - Thu Aug 29 01:12:54 GMT 2019
 
 =========
 Build: 1.14.4-28.0.56 - Wed Aug 28 19:59:19 GMT 2019
-	lex:
+	lexmanos:
 		Fix blocks being placed in adventure mode. Closes #6085 Add early error
 		for setting invalid world directory. Closes #6084 Fix PlayerTickEvent
 		not firing when dead, even if player isn't removed from world yet.
@@ -962,27 +1102,27 @@ Build: 1.14.4-28.0.56 - Wed Aug 28 19:59:19 GMT 2019
 
 =========
 Build: 1.14.4-28.0.55 - Tue Aug 20 22:40:50 GMT 2019
-	lex:
+	lexmanos:
 		Fix Javac generics breakage.
 
-	lex:
+	lexmanos:
 		Sort server.properties while writing.
 
-	lex:
+	lexmanos:
 		Add Argument serializer for ModIdArgument. EnumArgument can't as vanilla
 		doesn't support extra data.
 
-	lex:
+	lexmanos:
 		Prevent worlds from unloading while players are in out-of-world states
 		by tracking all worlds references by every player in the server's player
 		list.
 
 =========
 Build: 1.14.4-28.0.51 - Tue Aug 20 02:46:20 GMT 2019
-	lex:
+	lexmanos:
 		Fix Configs not generating correctly on first load Closes #6069
 
-	lex:
+	lexmanos:
 		Fix chunk load failure when entering End portal Closes #6068
 
 =========
@@ -1004,7 +1144,7 @@ Build: 1.14.4-28.0.47 - Thu Aug 15 17:17:36 GMT 2019
 
 =========
 Build: 1.14.4-28.0.46 - Wed Aug 14 23:13:25 GMT 2019
-	lex:
+	lexmanos:
 		Fix extract inheritance not using proper classpath and update
 		buildscript for FG asm changes.
 
@@ -1041,12 +1181,12 @@ Build: 1.14.4-28.0.41 - Mon Aug 05 01:19:19 GMT 2019
 
 =========
 Build: 1.14.4-28.0.40 - Sat Aug 03 01:48:54 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Fix a crash I caused by misunderstanding formatToString (#6007)
 
 =========
 Build: 1.14.4-28.0.39 - Sat Aug 03 01:03:37 GMT 2019
-	lex:
+	lexmanos:
 		Fix userdev setup by moving SAS concept to FG.
 
 =========
@@ -1072,22 +1212,22 @@ Build: 1.14.4-28.0.34 - Fri Aug 02 20:50:19 GMT 2019
 	mh:
 		Fixed PlayerInteractEvents not working (#5976)
 
-	DaemonUmbra:
+	daemonumbra:
 		Change ModLoadingException to display ModID instead of ModInfo instance
 		identifier. (#5999)
 
 =========
 Build: 1.14.4-28.0.32 - Fri Aug 02 20:44:09 GMT 2019
-	Gamebuster19901:
+	gamebuster19901:
 		Fix LazyOptional throwing NPE to consumers when owners null. (#5772)
 
-	Gamebuster19901:
+	gamebuster19901:
 		Fixed Buttons in the error screen are incorrectly rendered if they are
 		extremely long Closes #5687 (#5924)
 
 =========
 Build: 1.14.4-28.0.30 - Fri Aug 02 20:37:17 GMT 2019
-	lex:
+	lexmanos:
 		Make Villager profession unlocalized name use modids when not
 		'minecraft' Closes #5977 Fixed trees able to be generated through water.
 		Closes #6000 Change Block#toString to use getRegistryName instead of
@@ -1096,13 +1236,13 @@ Build: 1.14.4-28.0.30 - Fri Aug 02 20:37:17 GMT 2019
 
 =========
 Build: 1.14.4-28.0.29 - Thu Aug 01 05:43:58 GMT 2019
-	lex:
+	lexmanos:
 		Fixed DimensionType.getRegistryName() returning null Closes #5992 Fixed
 		RegisterDimensionEvent not firing for new worlds. Closes #5987
 
 =========
 Build: 1.14.4-28.0.28 - Thu Aug 01 04:15:51 GMT 2019
-	lex:
+	lexmanos:
 		Introduce new Side Annotation Stripper system to semi-automate the
 		shipment of Sided methods and cleanup patches. New forge:checkSAS task
 		to validate this config file. Closes #5995
@@ -1159,7 +1299,7 @@ Build: 1.14.4-28.0.21 - Sat Jul 27 16:48:19 GMT 2019
 
 =========
 Build: 1.14.4-28.0.20 - Sat Jul 27 09:35:20 GMT 2019
-	lex:
+	lexmanos:
 		Fixed network ticking player entity while it is dead. And explicitly
 		prevent overworld from unloading. Closes #5978
 
@@ -1186,28 +1326,28 @@ Build: 1.14.4-28.0.17 - Fri Jul 26 03:02:48 GMT 2019
 
 =========
 Build: 1.14.4-28.0.16 - Fri Jul 26 01:00:15 GMT 2019
-	lex:
+	lexmanos:
 		Fix @ObjectHolderRegistry not properly detecting vanilla class level
 		references. Closes #5958
 
-	lex:
+	lexmanos:
 		Fix Slimes not splitting on death Closes #5973
 
 =========
 Build: 1.14.4-28.0.14 - Wed Jul 24 18:15:36 GMT 2019
-	lex:
+	lexmanos:
 		Fixed missed patch causing blocks to not dropping EXP and BreakEvent to
 		not fire.
 
 =========
 Build: 1.14.4-28.0.13 - Tue Jul 23 02:23:28 GMT 2019
-	David Quintana:
+	gigaherz:
 		Fix & Improve state comparison when checking vanilla block replacements
 		(#5922)
 
 =========
 Build: 1.14.4-28.0.12 - Mon Jul 22 22:45:51 GMT 2019
-	lex:
+	lexmanos:
 		Keep player cap data until they have revived. Closes #5956
 
 =========
@@ -1225,7 +1365,7 @@ Build: 1.14.4-28.0.11 - Sun Jul 21 01:04:23 GMT 2019
 
 =========
 Build: 1.14.4-28.0.9 - Sat Jul 20 23:38:35 GMT 2019
-	Barteks2x:
+	barteks2x:
 		Fix RegistryObject when used with generic registry entry classes
 
 	cpw:
@@ -1264,7 +1404,7 @@ Build: 1.14.4-28.0.2 - Sat Jul 20 16:06:15 GMT 2019
 
 =========
 Build: 1.14.4-28.0.1 - Sat Jul 20 06:27:42 GMT 2019
-	lex:
+	lexmanos:
 		Fix javac compile issues.
 
 	cpw:
@@ -1287,7 +1427,7 @@ Build: 1.14.3-27.0.59 - Thu Jul 18 21:22:01 GMT 2019
 
 =========
 Build: 1.14.3-27.0.58 - Thu Jul 18 21:15:19 GMT 2019
-	lex:
+	lexmanos:
 		Change default BrewingRecipe to use an Ingredient for the input instead
 		of ItemStack. Closes #5944 Add AT for GameRules.register Closes #5946
 		Fix Forge Blockstate loader model path is inconsistent with vanilla
@@ -1296,12 +1436,12 @@ Build: 1.14.3-27.0.58 - Thu Jul 18 21:15:19 GMT 2019
 
 =========
 Build: 1.14.3-27.0.57 - Wed Jul 17 05:38:23 GMT 2019
-	lex:
+	lexmanos:
 		Fix CheckSpawn event logic for natural spawns.
 
 =========
 Build: 1.14.3-27.0.56 - Tue Jul 16 23:03:04 GMT 2019
-	lex:
+	lexmanos:
 		Fixed item breaking particles not capturing current state of the
 		ItemStack. Closes #5934
 
@@ -1318,14 +1458,14 @@ Build: 1.14.3-27.0.54 - Tue Jul 16 19:41:28 GMT 2019
 
 =========
 Build: 1.14.3-27.0.53 - Tue Jul 16 18:53:16 GMT 2019
-	lex:
+	lexmanos:
 		Fixed PlayerSleepInBedEvent pos is always null Closes #5936 Fixed
 		decompile error causing Endless Loop in ModelBackery if model errors
 		exist. Fixed NPEs related to teleporting players without portals.
 
 =========
 Build: 1.14.3-27.0.52 - Tue Jul 16 16:59:45 GMT 2019
-	lex:
+	lexmanos:
 		Add simple concurrency protection to Server world list. Closes #5938 and
 		#5739
 
@@ -1342,26 +1482,26 @@ Build: 1.14.3-27.0.50 - Thu Jul 11 03:14:20 GMT 2019
 
 =========
 Build: 1.14.3-27.0.49 - Thu Jul 11 00:39:30 GMT 2019
-	lex:
+	lexmanos:
 		Fix race condition in client mouse handler. Closes #5888
 
-	lex:
+	lexmanos:
 		Cleanup Forge's Access Transformer, and add ATs for
 		Block.Properties#noDrop, and AxeItem/PickaxeItem. Closes #5866 and
 		Closes #5921
 
 =========
 Build: 1.14.3-27.0.47 - Wed Jul 10 02:21:09 GMT 2019
-	lex:
+	lexmanos:
 		Re-implement state.onBlockExploded() Closes #5914
 
-	lex:
+	lexmanos:
 		Implement Item.isRepairable in Crafting and Grindstone. Closes #5917
 
-	lex:
+	lexmanos:
 		Implemented Item.get/setDamage hooks. Closes #5899
 
-	lex:
+	lexmanos:
 		Added LootPool.Builder#bonusRolls setter. Closes #5887
 
 =========
@@ -1371,10 +1511,10 @@ Build: 1.14.3-27.0.43 - Tue Jul 09 03:43:09 GMT 2019
 
 =========
 Build: 1.14.3-27.0.42 - Tue Jul 09 03:14:52 GMT 2019
-	lex:
+	lexmanos:
 		Fix syntax error in IRenderHandler.
 
-	lex:
+	lexmanos:
 		Pass tick counter to custom render handlers (#5744)
 
 =========
@@ -1382,12 +1522,12 @@ Build: 1.14.3-27.0.40 - Tue Jul 09 02:55:01 GMT 2019
 	support:
 		Fix logoFile not working properly (#5775)
 
-	37298044+Cadiboo:
+	37298044+cadiboo:
 		Fire Loading event (#5795)
 
 =========
 Build: 1.14.3-27.0.38 - Tue Jul 09 02:49:22 GMT 2019
-	37298044+Cadiboo:
+	37298044+cadiboo:
 		Added documentation to ObfuscationReflectionHelper adn deprecated index
 		based functions. (#5893)
 
@@ -1416,7 +1556,7 @@ Build: 1.14.3-27.0.38 - Tue Jul 09 02:49:22 GMT 2019
 
 =========
 Build: 1.14.3-27.0.31 - Tue Jul 09 02:43:35 GMT 2019
-	lex:
+	lexmanos:
 		Fixed EntityJoinWorldEvent not being fired when player is added to
 		ServerWorld. #5827 Fixed wrong example path for the access transformer
 		in the MDK build.gradle. #5891 Added getters for mouse x/y velocity and
@@ -1432,7 +1572,7 @@ Build: 1.14.3-27.0.31 - Tue Jul 09 02:43:35 GMT 2019
 
 =========
 Build: 1.14.3-27.0.30 - Mon Jul 08 22:59:04 GMT 2019
-	DaemonUmbra:
+	daemonumbra:
 		Disable Config Button when no mods are selected (#5905)
 		Closes #5889
 
@@ -1442,7 +1582,7 @@ Build: 1.14.3-27.0.29 - Mon Jul 08 22:53:13 GMT 2019
 		Fix link applying to whole component in chat if component starts with
 		link (#5909)
 
-	DaemonUmbra:
+	daemonumbra:
 		Fixed #5895: Shearing via Displenser drops Shears (#5906)
 
 	tedstar.dev:
@@ -1456,7 +1596,7 @@ Build: 1.14.3-27.0.26 - Mon Jul 08 22:46:01 GMT 2019
 
 =========
 Build: 1.14.3-27.0.25 - Fri Jul 05 20:26:34 GMT 2019
-	lex:
+	lexmanos:
 		Fix installer realms issue on server. Uptake EventBus changes to fix
 		some potential dead locks.
 
@@ -1473,14 +1613,14 @@ Build: 1.14.3-27.0.23 - Wed Jul 03 19:35:33 GMT 2019
 
 =========
 Build: 1.14.3-27.0.22 - Wed Jul 03 08:08:39 GMT 2019
-	lex:
+	lexmanos:
 		Add installer processor to deobfuscate Mincraft's Realms library. This
 		task will processes the current realms library from the json, so the
 		installer must be re-ran every time they update it.
 
 =========
 Build: 1.14.3-27.0.21 - Tue Jul 02 20:08:57 GMT 2019
-	David Quintana:
+	gigaherz:
 		Redirect a method to the recipe book container, to allow modded screens
 		to have a recipe book. (#5873)
 
@@ -1497,7 +1637,7 @@ Build: 1.14.3-27.0.19 - Tue Jul 02 19:57:14 GMT 2019
 
 =========
 Build: 1.14.3-27.0.18 - Tue Jul 02 18:55:13 GMT 2019
-	lex:
+	lexmanos:
 		Fix type cast issues in ForgeConfig values. Closes #5894 Added config
 		value set and save functions. By default mod configs are auto-saved, so
 		you do not need to call save unless you create your own Config object.
@@ -1518,13 +1658,13 @@ Build: 1.14.3-27.0.16 - Sat Jun 29 21:05:43 GMT 2019
 
 =========
 Build: 1.14.3-27.0.15 - Fri Jun 28 00:23:46 GMT 2019
-	lex:
+	lexmanos:
 		Fix duplicate WorldEvent.Unload call in client key handler. Add recipe
 		generator to replace vanilla recipes with Forge tags.
 
 =========
 Build: 1.14.3-27.0.14 - Thu Jun 27 17:57:18 GMT 2019
-	lex:
+	lexmanos:
 		Fix dimension save data invalid cache being to aggressive.
 
 =========
@@ -1534,12 +1674,12 @@ Build: 1.14.3-27.0.13 - Wed Jun 26 20:23:56 GMT 2019
 
 =========
 Build: 1.14.3-27.0.12 - Wed Jun 26 01:16:22 GMT 2019
-	lex:
+	lexmanos:
 		Fix fmluserdevdata not being a valid launch target.
 
 =========
 Build: 1.14.3-27.0.11 - Wed Jun 26 01:04:02 GMT 2019
-	lex:
+	lexmanos:
 		Split userdev data entry point into it's own provider to fix duplicate
 		mod issue.
 
@@ -1563,7 +1703,7 @@ Build: 1.14.3-27.0.8 - Tue Jun 25 20:56:41 GMT 2019
 
 =========
 Build: 1.14.3-27.0.7 - Tue Jun 25 20:50:53 GMT 2019
-	33880787+RedBorg:
+	33880787+redborg:
 		Add isItemValid check for ItemStackHandler (#5850)
 
 =========
@@ -1573,7 +1713,7 @@ Build: 1.14.3-27.0.5 - Tue Jun 25 20:45:02 GMT 2019
 
 =========
 Build: 1.14.3-27.0.4 - Tue Jun 25 20:38:40 GMT 2019
-	Unnoen:
+	unnoen:
 		Update readme and issue template. (#5773)
 
 =========
@@ -1583,18 +1723,18 @@ Build: 1.14.3-27.0.3 - Tue Jun 25 17:25:42 GMT 2019
 
 =========
 Build: 1.14.3-27.0.2 - Tue Jun 25 03:06:02 GMT 2019
-	lex:
+	lexmanos:
 		Fix vines and scaffolding not being climbable. Fix powered rails not
 		spreading power correctly. Closes: #5854
 
 =========
 Build: 1.14.3-27.0.1 - Tue Jun 25 02:37:14 GMT 2019
-	lex:
+	lexmanos:
 		Fix misaligned ServerWorld initCapabilities patch.
 
 =========
 Build: 1.14.3-27.0.0 - Tue Jun 25 02:01:47 GMT 2019
-	lex:
+	lexmanos:
 		Initial 1.14.3 update.
 
 =========
@@ -1738,27 +1878,27 @@ Build: 1.14.2-26.0.37 - Fri Jun 21 23:35:42 GMT 2019
 
 =========
 Build: 1.14.2-26.0.35 - Thu Jun 20 01:10:15 GMT 2019
-	lex:
+	lexmanos:
 		Fix some compile errors in test classes.
 
-	lex:
+	lexmanos:
 		Fix lighting not being sent to client when large amounts of blocks
 		change at once. Closes #5839 Remove RecipeType/VanillaRecipeTypes, as
 		1.14 has a vanilla system for this.
 
 =========
 Build: 1.14.2-26.0.33 - Mon Jun 17 21:08:30 GMT 2019
-	lex:
+	lexmanos:
 		Fix Vanilla resources loading from classpath, instead of the extra jar.
 		Causing issues in dev time, and Forge replacements. Closes #5824
 
 =========
 Build: 1.14.2-26.0.32 - Sun Jun 16 07:48:59 GMT 2019
-	lex:
+	lexmanos:
 		Make ReverseTagWrapper unmodifiable, fix error in log when mods folder
 		doesn't exist initial scan.
 
-	lex:
+	lexmanos:
 		Add temporary hard crash when mods error until we can load our error
 		screen.
 
@@ -1778,7 +1918,7 @@ Build: 1.14.2-26.0.29 - Sun Jun 16 03:11:29 GMT 2019
 
 =========
 Build: 1.14.2-26.0.28 - Sun Jun 16 01:35:44 GMT 2019
-	lex:
+	lexmanos:
 		Expose the data entry point and generate Forge's Tags using it.
 
 	cpw:
@@ -1797,7 +1937,7 @@ Build: 1.14.2-26.0.28 - Sun Jun 16 01:35:44 GMT 2019
 
 =========
 Build: 1.14.2-26.0.25 - Thu Jun 13 02:28:25 GMT 2019
-	lex:
+	lexmanos:
 		Add reverse tag cache, to make looking up tags for items/blocks/etc..
 		less costly.
 
@@ -1848,7 +1988,7 @@ Build: 1.14.2-26.0.16 - Mon Jun 10 22:14:58 GMT 2019
 
 =========
 Build: 1.14.2-26.0.15 - Mon Jun 10 21:04:07 GMT 2019
-	lex:
+	lexmanos:
 		Fix Fishing and Mineshaft Minecarts loot tables erroring. #5785 Fix
 		Client block breaking speed not matching the server. #5790 Fix Village
 		Siege event location, and MC-154328 preventing Sieges starting. #5800
@@ -1866,7 +2006,7 @@ Build: 1.14.2-26.0.14 - Mon Jun 10 04:13:40 GMT 2019
 
 =========
 Build: 1.14.2-26.0.13 - Sun Jun 09 18:19:15 GMT 2019
-	lex:
+	lexmanos:
 		Fix gameDir argument error on dedicated server.
 
 =========
@@ -1897,7 +2037,7 @@ Build: 1.14.2-26.0.8 - Sat Jun 08 18:30:30 GMT 2019
 
 =========
 Build: 1.14.2-26.0.7 - Sat Jun 08 16:22:18 GMT 2019
-	lex:
+	lexmanos:
 		Fix misobfed methods due to mapping conflict.
 
 =========
@@ -1919,7 +2059,7 @@ Build: 1.14.2-26.0.4 - Sat Jun 08 05:02:43 GMT 2019
 
 =========
 Build: 1.14.2-26.0.3 - Sat Jun 08 02:41:53 GMT 2019
-	lex:
+	lexmanos:
 		Fix NamespacedWrapper not delegating a new getter. Fixing data loading
 		spam at world start. Update red/yellow/green tags with new vanilla item
 		names. Reenabled test source directory in project and made ModelDataTest
