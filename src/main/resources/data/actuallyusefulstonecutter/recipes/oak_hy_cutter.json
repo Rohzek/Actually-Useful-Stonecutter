@@ -1,9 +1,0 @@
-{
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:oak_wood"
-  },
-  "result": "minecraft:stripped_oak_wood"
-}

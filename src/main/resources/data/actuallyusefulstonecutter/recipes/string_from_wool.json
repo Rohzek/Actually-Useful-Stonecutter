@@ -1,7 +1,7 @@
 {
-  "group": "survivalfixes",
-  "type": "minecraft:stonecutting",
-  "count": 6,
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 8,
   "ingredient": {
     "tag": "minecraft:wool"
   },

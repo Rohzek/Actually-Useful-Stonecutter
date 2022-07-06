@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:crimson_hyphae"
+  },
+  "result": "minecraft:barrel"
+}

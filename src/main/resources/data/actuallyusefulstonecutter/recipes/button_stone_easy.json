@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "result": "minecraft:stone_button"
+}
