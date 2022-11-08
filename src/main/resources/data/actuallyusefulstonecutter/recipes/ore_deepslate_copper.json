@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:deepslate_copper_ore"
+  },
+  "result": "minecraft:raw_copper"
+}

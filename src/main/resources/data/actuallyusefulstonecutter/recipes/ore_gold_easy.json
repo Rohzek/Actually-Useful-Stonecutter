@@ -3,7 +3,7 @@
   "difficulty": "easy",
   "count": 16,
   "ingredient": {
-    "item": "minecraft:gold_block"
+    "item": "minecraft:gold_ore"
   },
   "result": "minecraft:raw_gold"
 }
