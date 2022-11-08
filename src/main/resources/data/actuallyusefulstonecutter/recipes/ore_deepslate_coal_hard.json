@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:deepslate_coal_ore"
+  },
+  "result": "minecraft:coal"
+}

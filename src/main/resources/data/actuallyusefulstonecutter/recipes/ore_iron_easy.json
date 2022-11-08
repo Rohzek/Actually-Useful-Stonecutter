@@ -3,7 +3,7 @@
   "difficulty": "easy",
   "count": 16,
   "ingredient": {
-    "item": "minecraft:iron_block"
+    "item": "minecraft:iron_ore"
   },
-  "result": "minecraft:iron_ingot"
+  "result": "minecraft:raw_iron"
 }

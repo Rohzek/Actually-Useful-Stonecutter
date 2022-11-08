@@ -102,7 +102,9 @@ public class StonecutterModRecipe extends StonecutterRecipe
 			String group = bytebuf.readUtf();
 			Ingredient ingredient = Ingredient.fromNetwork(bytebuf);
 			ItemStack itemstack = bytebuf.readItem();
-			return new StonecutterModRecipe(location, group, ingredient, itemstack, "normal");
+			String diff = bytebuf.readUtf();
+			
+			return new StonecutterModRecipe(location, group, ingredient, itemstack, diff);
 		}
 
 		@Override
@@ -111,6 +113,7 @@ public class StonecutterModRecipe extends StonecutterRecipe
 			bytebuf.writeUtf(recipe.group);
 			recipe.ingredient.toNetwork(bytebuf);
 			bytebuf.writeItem(recipe.result);
+			bytebuf.writeUtf(recipe.difficulty);
 		}
 	}
 }
