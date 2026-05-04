@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:cherry_wood"
+  },
+  "result": "minecraft:cherry_boat"
+}
