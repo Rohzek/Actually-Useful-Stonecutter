@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:stripped_bamboo_block"
+  },
+  "result": "minecraft:bamboo_planks"
+}

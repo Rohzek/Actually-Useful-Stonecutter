@@ -1,7 +1,10 @@
 {
-    "pack": {
-        "description": "A simple mod for adding recipes",
-        "pack_format": 4,
-        "_comment": "No comment."
-    }
+  "pack": {
+    "description": "A simple mod for adding recipes",
+    "pack_format": 48,
+    "supported_formats": [
+      0,
+      2147483647
+    ]
+  }
 }

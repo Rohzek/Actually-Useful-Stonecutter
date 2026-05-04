@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:waxed_oxidized_cut_copper"
+  },
+  "result": "minecraft:waxed_oxidized_cut_copper_slab"
+}

@@ -7,24 +7,17 @@ import com.gmail.rohzek.stonecut.lib.ConfigurationManager;
 import com.gmail.rohzek.stonecut.lib.DeferredRegistration;
 import com.gmail.rohzek.stonecut.lib.Reference;
 
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
 
 @Mod(Reference.MODID)
-public class ActuallyUsefulStonecutter 
-{
-	public final static Logger LOGGER = LogManager.getLogger();
-	
-	public ActuallyUsefulStonecutter() 
-	{
-		// Register the mod
-		FMLJavaModLoadingContext.get().getModEventBus().register(this);
-		
-		DeferredRegistration.register();
-		// Register configuration file
-		final ModLoadingContext modLoadingContext = ModLoadingContext.get();
-		modLoadingContext.registerConfig(ModConfig.Type.COMMON, ConfigurationManager.spec);
-	}
+public class ActuallyUsefulStonecutter {
+    public static final Logger LOGGER = LogManager.getLogger();
+
+    public ActuallyUsefulStonecutter(IEventBus modEventBus, ModContainer modContainer) {
+        DeferredRegistration.register(modEventBus);
+        modContainer.registerConfig(ModConfig.Type.COMMON, ConfigurationManager.SPEC);
+    }
 }

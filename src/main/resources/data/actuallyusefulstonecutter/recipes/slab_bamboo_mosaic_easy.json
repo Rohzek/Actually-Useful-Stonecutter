@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:bamboo_mosaic"
+  },
+  "result": "minecraft:bamboo_mosaic_slab"
+}
