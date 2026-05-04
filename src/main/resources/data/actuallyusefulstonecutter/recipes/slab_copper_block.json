@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:cut_copper"
+  },
+  "result": "minecraft:cut_copper_slab"
+}

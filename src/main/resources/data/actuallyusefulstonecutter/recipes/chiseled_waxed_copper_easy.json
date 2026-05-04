@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:waxed_cut_copper"
+  },
+  "result": "minecraft:waxed_chiseled_copper"
+}

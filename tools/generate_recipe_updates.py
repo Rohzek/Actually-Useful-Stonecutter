@@ -33,6 +33,8 @@ SIMPLE_COUNTS = {
     "cut_block": {"easy": 1, "normal": 1, "hard": 1},
     "stairs_from_block": {"easy": 3, "normal": 2, "hard": 1},
     "slab_from_block": {"easy": 4, "normal": 3, "hard": 2},
+    "copper_grate": {"easy": 4, "normal": 2, "hard": 1},
+    "copper_bulb": {"easy": 2, "normal": 1, "hard": 1},
 }
 
 
@@ -157,11 +159,50 @@ def generate_tuff() -> int:
     return count
 
 
+def generate_copper() -> int:
+    count = 0
+    states = [
+        ("copper_block", "copper_block", "cut_copper", "chiseled_copper", "copper_door", "copper_trapdoor", "copper_grate", "copper_bulb"),
+        ("exposed_copper", "exposed_copper", "exposed_cut_copper", "exposed_chiseled_copper", "exposed_copper_door", "exposed_copper_trapdoor", "exposed_copper_grate", "exposed_copper_bulb"),
+        ("weathered_copper", "weathered_copper", "weathered_cut_copper", "weathered_chiseled_copper", "weathered_copper_door", "weathered_copper_trapdoor", "weathered_copper_grate", "weathered_copper_bulb"),
+        ("oxidized_copper", "oxidized_copper", "oxidized_cut_copper", "oxidized_chiseled_copper", "oxidized_copper_door", "oxidized_copper_trapdoor", "oxidized_copper_grate", "oxidized_copper_bulb"),
+        ("waxed_copper", "waxed_copper_block", "waxed_cut_copper", "waxed_chiseled_copper", "waxed_copper_door", "waxed_copper_trapdoor", "waxed_copper_grate", "waxed_copper_bulb"),
+        ("waxed_exposed_copper", "waxed_exposed_copper", "waxed_exposed_cut_copper", "waxed_exposed_chiseled_copper", "waxed_exposed_copper_door", "waxed_exposed_copper_trapdoor", "waxed_exposed_copper_grate", "waxed_exposed_copper_bulb"),
+        ("waxed_weathered_copper", "waxed_weathered_copper", "waxed_weathered_cut_copper", "waxed_weathered_chiseled_copper", "waxed_weathered_copper_door", "waxed_weathered_copper_trapdoor", "waxed_weathered_copper_grate", "waxed_weathered_copper_bulb"),
+        ("waxed_oxidized_copper", "waxed_oxidized_copper", "waxed_oxidized_cut_copper", "waxed_oxidized_chiseled_copper", "waxed_oxidized_copper_door", "waxed_oxidized_copper_trapdoor", "waxed_oxidized_copper_grate", "waxed_oxidized_copper_bulb"),
+    ]
+
+    for base_name, block, cut, chiseled, door, trapdoor, grate, bulb in states:
+        stairs = f"{cut}_stairs"
+        slab = f"{cut}_slab"
+
+        for difficulty in DIFFICULTIES:
+            write_recipe(f"cut_{base_name}", difficulty, SIMPLE_COUNTS["cut_block"][difficulty], block, cut)
+            count += 1
+            write_recipe(f"chiseled_{base_name}", difficulty, SIMPLE_COUNTS["cut_block"][difficulty], cut, chiseled)
+            count += 1
+            write_recipe(f"stairs_{base_name}", difficulty, SIMPLE_COUNTS["stairs_from_block"][difficulty], cut, stairs)
+            count += 1
+            write_recipe(f"slab_{base_name}", difficulty, SIMPLE_COUNTS["slab_from_block"][difficulty], cut, slab)
+            count += 1
+            write_recipe(f"door_{base_name}", difficulty, WOOD_COUNTS["door"][difficulty], block, door)
+            count += 1
+            write_recipe(f"trapdoor_{base_name}", difficulty, WOOD_COUNTS["trapdoor"][difficulty], block, trapdoor)
+            count += 1
+            write_recipe(f"grate_{base_name}", difficulty, SIMPLE_COUNTS["copper_grate"][difficulty], block, grate)
+            count += 1
+            write_recipe(f"bulb_{base_name}", difficulty, SIMPLE_COUNTS["copper_bulb"][difficulty], block, bulb)
+            count += 1
+
+    return count
+
+
 def main() -> None:
     cherry = clone_mangrove_to_cherry()
     bamboo = generate_bamboo()
     tuff = generate_tuff()
-    print(f"Generated {cherry} cherry recipes, {bamboo} bamboo recipes, and {tuff} tuff recipes.")
+    copper = generate_copper()
+    print(f"Generated {cherry} cherry recipes, {bamboo} bamboo recipes, {tuff} tuff recipes, and {copper} copper recipes.")
 
 
 if __name__ == "__main__":

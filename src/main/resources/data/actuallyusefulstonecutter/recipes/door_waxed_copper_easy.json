@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:waxed_copper_block"
+  },
+  "result": "minecraft:waxed_copper_door"
+}
