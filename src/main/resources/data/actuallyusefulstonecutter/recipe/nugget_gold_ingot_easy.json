@@ -1,7 +1,7 @@
 {
   "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 16,
+  "difficulty": "easy",
+  "count": 24,
   "ingredient": {
     "item": "minecraft:gold_ingot"
   },
