@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "hard",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:mangrove_log"
-  },
-  "result": "minecraft:mangrove_door"
-}

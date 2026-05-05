@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "hard",
-  "count": 6,
-  "ingredient": {
-    "item": "minecraft:iron_block"
-  },
-  "result": "minecraft:iron_door"
-}

@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:acacia_planks"
-  },
-  "result": "minecraft:acacia_stairs"
-}

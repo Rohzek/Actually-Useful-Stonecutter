@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:stripped_dark_oak_wood"
-  },
-  "result": "minecraft:chest"
-}

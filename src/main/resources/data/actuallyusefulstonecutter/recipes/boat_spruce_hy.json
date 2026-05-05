@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:spruce_wood"
-  },
-  "result": "minecraft:spruce_boat"
-}

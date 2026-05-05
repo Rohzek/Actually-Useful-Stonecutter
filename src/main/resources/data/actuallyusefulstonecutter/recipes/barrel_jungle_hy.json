@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 1,
-  "ingredient": {
-    "item": "minecraft:jungle_wood"
-  },
-  "result": "minecraft:barrel"
-}

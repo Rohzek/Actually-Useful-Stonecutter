@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 6,
-  "ingredient": {
-    "item": "minecraft:lime_terracotta"
-  },
-  "result": "minecraft:brick"
-}

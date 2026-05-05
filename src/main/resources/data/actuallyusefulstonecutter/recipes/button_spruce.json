@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 8,
-  "ingredient": {
-    "item": "minecraft:spruce_planks"
-  },
-  "result": "minecraft:spruce_button"
-}

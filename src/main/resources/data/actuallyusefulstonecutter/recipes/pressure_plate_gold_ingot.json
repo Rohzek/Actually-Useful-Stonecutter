@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:gold_ingot"
-  },
-  "result": "minecraft:light_weighted_pressure_plate"
-}

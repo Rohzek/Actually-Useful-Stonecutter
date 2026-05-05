@@ -1,9 +1,0 @@
-{
-  "type": "actuallyusefulstonecutter:stonecutter",
-  "difficulty": "normal",
-  "count": 24,
-  "ingredient": {
-    "item": "minecraft:iron_block"
-  },
-  "result": "minecraft:iron_bars"
-}
