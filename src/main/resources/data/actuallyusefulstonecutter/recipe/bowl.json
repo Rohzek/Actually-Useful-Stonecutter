@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 4,
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "minecraft:bowl"
+}

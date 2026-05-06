@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "minecraft:crimson_button"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 3,
+  "ingredient": {
+    "item": "minecraft:oak_planks"
+  },
+  "result": "minecraft:oak_slab"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:bricks"
+  },
+  "result": "minecraft:brick"
+}

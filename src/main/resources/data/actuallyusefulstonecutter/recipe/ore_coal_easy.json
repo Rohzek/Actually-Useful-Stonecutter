@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:coal_ore"
+  },
+  "result": "minecraft:coal"
+}

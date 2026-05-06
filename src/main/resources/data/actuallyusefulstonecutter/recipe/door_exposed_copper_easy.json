@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:exposed_copper"
+  },
+  "result": "minecraft:exposed_copper_door"
+}

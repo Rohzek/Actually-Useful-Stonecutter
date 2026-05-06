@@ -1,11 +1,9 @@
 {
   "type": "actuallyusefulstonecutter:stonecutter",
   "difficulty": "normal",
+  "count": 6,
   "ingredient": {
     "item": "minecraft:oak_log"
   },
-  "result": {
-	  "count": 6,
-	  "id": "minecraft:oak_planks"
-  }
+  "result": "minecraft:oak_planks"
 }

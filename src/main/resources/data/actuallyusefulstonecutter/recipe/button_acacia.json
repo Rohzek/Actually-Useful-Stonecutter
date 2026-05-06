@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "minecraft:acacia_button"
+}

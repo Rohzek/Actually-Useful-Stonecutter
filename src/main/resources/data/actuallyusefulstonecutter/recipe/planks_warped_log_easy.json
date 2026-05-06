@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:warped_stem"
+  },
+  "result": "minecraft:warped_planks"
+}

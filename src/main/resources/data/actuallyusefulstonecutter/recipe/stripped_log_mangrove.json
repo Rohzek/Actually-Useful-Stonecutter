@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:mangrove_log"
+  },
+  "result": "minecraft:stripped_mangrove_log"
+}

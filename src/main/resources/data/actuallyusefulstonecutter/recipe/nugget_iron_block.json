@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 36,
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "result": "minecraft:iron_nugget"
+}

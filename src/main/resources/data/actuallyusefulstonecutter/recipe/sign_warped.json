@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "result": "minecraft:warped_sign"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:birch_log"
+  },
+  "result": "minecraft:chest"
+}

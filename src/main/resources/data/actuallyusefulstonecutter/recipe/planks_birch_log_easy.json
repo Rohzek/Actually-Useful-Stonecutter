@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:birch_log"
+  },
+  "result": "minecraft:birch_planks"
+}

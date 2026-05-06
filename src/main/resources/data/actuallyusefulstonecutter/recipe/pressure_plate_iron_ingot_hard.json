@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "minecraft:heavy_weighted_pressure_plate"
+}

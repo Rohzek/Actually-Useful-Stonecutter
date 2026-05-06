@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "result": "minecraft:jungle_button"
+}

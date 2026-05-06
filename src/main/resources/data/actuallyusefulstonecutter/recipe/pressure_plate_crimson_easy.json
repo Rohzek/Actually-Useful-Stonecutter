@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "result": "minecraft:crimson_pressure_plate"
+}

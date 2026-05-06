@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:spruce_wood"
+  },
+  "result": "minecraft:chest"
+}

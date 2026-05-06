@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 4,
+  "ingredient": {
+    "item": "minecraft:oxidized_cut_copper"
+  },
+  "result": "minecraft:oxidized_cut_copper_slab"
+}

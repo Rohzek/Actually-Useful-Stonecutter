@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:cherry_planks"
+  },
+  "result": "minecraft:cherry_fence"
+}

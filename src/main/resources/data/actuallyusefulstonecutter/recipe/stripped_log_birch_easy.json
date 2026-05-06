@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:birch_log"
+  },
+  "result": "minecraft:stripped_birch_log"
+}

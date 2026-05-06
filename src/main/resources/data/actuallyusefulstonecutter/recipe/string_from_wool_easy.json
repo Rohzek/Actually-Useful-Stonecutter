@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 32,
+  "ingredient": {
+    "tag": "minecraft:wool"
+  },
+  "result": "minecraft:string"
+}

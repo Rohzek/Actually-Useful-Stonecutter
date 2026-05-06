@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:mangrove_wood"
+  },
+  "result": "minecraft:mangrove_planks"
+}

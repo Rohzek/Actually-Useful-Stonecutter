@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 8,
+  "ingredient": {
+    "item": "minecraft:brown_terracotta"
+  },
+  "result": "minecraft:brick"
+}

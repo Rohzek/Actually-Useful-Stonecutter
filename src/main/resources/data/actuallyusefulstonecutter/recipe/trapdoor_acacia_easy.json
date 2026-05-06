@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "result": "minecraft:acacia_trapdoor"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "hard",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:jungle_log"
+  },
+  "result": "minecraft:stripped_jungle_log"
+}

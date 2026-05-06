@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "normal",
+  "count": 6,
+  "ingredient": {
+    "item": "minecraft:red_nether_bricks"
+  },
+  "result": "minecraft:nether_brick"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "actuallyusefulstonecutter:stonecutter",
+  "difficulty": "easy",
+  "count": 12,
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "result": "minecraft:polished_blackstone_button"
+}
