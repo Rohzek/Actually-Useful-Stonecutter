@@ -3,7 +3,7 @@
   "difficulty": "hard",
   "count": 8,
   "ingredient": {
-    "item": "minecraft:gold_ingot"
+    "item": "minecraft:iron_ingot"
   },
-  "result": "minecraft:gold_nugget"
+  "result": "minecraft:iron_nugget"
 }
